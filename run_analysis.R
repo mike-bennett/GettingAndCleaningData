@@ -1,3 +1,4 @@
+library(tidyverse)
 options(digits = 7)
 
 ## Read in X test, train data and bind rows
