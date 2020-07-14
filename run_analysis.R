@@ -52,3 +52,5 @@ data_summary <- as_tibble(final_data) %>%
     group_by(activity, subjectID) %>% 
     summarize_at(vars(timeBodyAccMeanX:freqBodyBodyGyroJerkMagMean), mean)
 
+## Write data_summary to file
+write.table(data_summary, "data_summary.txt", row.names = FALSE)
