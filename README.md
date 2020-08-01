@@ -24,7 +24,9 @@ This repository contains these files:
 
 <br><br><br>
 
+
 # Codebook
+
 
 This data comes from the UCI Machine Learning Human Activity Recognition Using Smartphones Dataset<br>
 ** Only the columns from our final output table will be explained here **
